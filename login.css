@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    border: 1px solid   #000000 ;
+    margin: 80px;
+    border-radius: 30px;
+    background: linear-gradient(170deg,rgba(31, 137, 91, 0.942),rgba(36, 34, 34, 0.848));
+    box-shadow: 0 0 20px black,
+                0 0 30px black,
+                0 0 40px black;
+}
+fieldset{
+    border-color: rgb(252, 243, 243);
+    border-radius: 10%;
+}
+.borderr{
+    border: 3px solid ;
+    border-radius: 30px;
+    font-size:18px;
+}
+.back3{
+    background: linear-gradient(351deg,red,blue);
+    border-radius: 10%;+9
+}
+.one img{
+    height: 230px;
+    position:absolute;
+    left: 1300px;
+    top: 34px;
+}
+.onee img{
+    height: 230px;
+    position:absolute;
+    left: 100px;
+    top: 34px;
+}
+label{
+    color: white;
+    font-size:20px;
+}
+.back4{
+    background-image: url(em.jpg);	
+    animation: AZE 2s linear infinite ;
+    border-radius: 10%;
+	box-shadow: 0 0 30px #fd0202,
+	            0 0 60px rgb(0, 0, 0),
+	            0 0 40px #1619b8;
+}
+@keyframes AZE {
+	0%{
+		filter: hue-rotate(0deg);
+	}
+	100%{
+		filter: hue-rotate(360deg);
+	}
+}
+.Hh1 > h1{
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    width: max-content;
+    position: relative;
+    left: 200px;
+    bottom: 60px;
+}
+.form2{
+    text-align: center;
+    width: 500px;
+    position: absolute;
+    left: 700px;
+    top: 300px;
+
+}
+img{
+    position: absolute;
+    bottom: 500px;
+    right: 240px;
+    width: 470px;   
+}
+h2{
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom:655px;
+    right: 340px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0 0 30px #e91e2fda,
+                 0 0 6px rgb(0, 219, 201),
+                 0 0 40px #9b810d;
+}
+.subm{
+    border-radius: 15%;
+    font-size: 30px;
+    border: 3px solid white;
+    border-radius: 20;
+    height: 40px;
+    padding-top: -30px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    border: 1px solid   #000000 ;
+    margin: 80px;
+    border-radius: 30px;
+    background: linear-gradient(170deg,rgba(31, 137, 91, 0.942),rgba(36, 34, 34, 0.848));
+    box-shadow: 0 0 20px black,
+                0 0 30px black,
+                0 0 40px black;
+}
+h1{
+    font-family:Copperplate Gothic Light;
+    border-bottom: 1px solid black;
+    width: 190px;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 50px;
+}
+.one img{
+    height: 230px;
+    position:absolute;
+    left: 1500px;
+    top: 34px;
+}
+ul li {
+    display: inline;
+    margin: 40px;
+    position: relative;
+    left: 610px;
+    top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+    color: black;
+    font-family:Copperplate Gothic Light;
+    font-weight: bold;
+    text-shadow: 0 0 3px rgb(255, 255, 255);
+    letter-spacing: 3;
+    padding: 2px;
+}
+.two img{
+    width:300px;
+    position: absolute;
+    left: 1300px;
+    top: 430px;
+}
+.four img{
+    width:60px;
+    position: absolute;
+    left: 1300px;
+    top: 500px;
+    animation:  first ease-in 3s infinite  alternate;
+}
+@keyframes first{
+    from {bottom: 0px;}
+    to {top: 440px;}
+}
+.three img{
+    width:60px;
+    position: absolute;
+    left: 1630px;
+    top: 550px;
+    color: black;
+    animation:  last ease-in 3s infinite  alternate;
+}
+@keyframes last{
+    from {bottom: 0px;}
+    to {top: 600px;}
+}
+.five img{
+    width:60px;
+    position: absolute;
+    left: 1500px;
+    top: 730px;
+    color: black;
+    animation:  second linear 5s infinite  alternate;
+}
+@keyframes second{
+    from {right: 0px;}
+    to {left: 1350px;}
+}
+.line{
+    position: absolute;
+    top :830px;
+    left: 340px;
+
+}
+.title p{
+    font-size: 90px;
+    font-family:Copperplate Gothic Light;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    margin-top: 120px;
+}
+.text p{
+    font-size: 25px;
+    font-family:Copperplate Gothic Light;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    word-spacing: 8px;
+}
+.sign_title h2{
+    font-family:Copperplate Gothic Light;
+    font-size: 30px;
+    position: absolute;
+    left: 315px;
+    top: 660px;
+}
+.log button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+.sign button{
+    position: absolute;
+    top:730px;
+    left: 250px;
+    text-align: center;
+    padding: 15px;
+    background-color:  black;
+    color: rgba(158, 184, 168, 0.884);
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-family: Copperplate Gothic Light;
+    font-weight: bold;
+    text-shadow: 0 0 2px rgb(255, 255, 255);
+    letter-spacing: 3;
+    border-radius: 25px / 40px;
+    height:2px;
+    width:10%;
+    border: solid rgb(88, 85, 85);
+    box-shadow: 0 0 10px rgb(0, 0, 0),
+                0 0 15px black,
+                0 0 20px black;
+}
+.log button{
+    position: absolute;
+    top:730px;
+    left: 540px;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: rgba(158, 184, 168, 0.884);
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-family: Copperplate Gothic Light;
+    font-weight: bold;
+    text-shadow: 0 0 2px rgb(255, 255, 255);
+    letter-spacing: 3;
+    border-radius: 25px / 40px;
+    height:2px;
+    width:10%;
+    border: solid rgb(88, 85, 85);
+    box-shadow: 0 0 10px rgb(0, 0, 0),
+                0 0 15px black,
+                0 0 20px black;
+}

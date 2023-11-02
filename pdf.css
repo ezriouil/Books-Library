@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    border: 1px solid   #000000 ;
+    margin: 80px;
+    border-radius: 30px;
+    background: linear-gradient(170deg,rgba(31, 137, 91, 0.942),rgba(36, 34, 34, 0.848));
+    box-shadow: 0 0 20px black,
+                0 0 30px black,
+                0 0 40px black;
+}
+ul li {
+    display: inline;
+    margin: 155px;
+    position: relative;
+    left: 110px;
+    top: 25px;
+}
+ul li a{
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 30px;
+    color: black;
+    font-family:Copperplate Gothic Light;
+    font-weight: bold;
+    padding: 5px;
+}
+.H_S  img{
+    position: relative;
+	left: 190px;
+    top: 70px;
+	height: 300px;
+	width: 220px;
+	border:6px solid;
+	border-radius:10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255),
+                0 0 20px black,
+                0 0 30px black;
+}
+.H_S p {
+    font-size: 20px;
+    width: 220px;
+    position: absolute;
+    left:280px;
+    font-family: MV Boli;
+    top: 520px;
+    letter-spacing: 2px;
+}
+.H_S button{
+    position: absolute;
+    top:750px;
+    left: 280px;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: rgba(158, 184, 168, 0.884);
+    font-size: 20px;
+    padding-bottom: 30px;
+    border: solid rgb(88, 85, 85);
+    box-shadow: 0 0 10px rgb(0, 0, 0),
+                0 0 20px black,
+                0 0 30px black;
+    font-family: Copperplate Gothic Light;
+    border-radius: 25px / 40px;
+    height:2px;
+    width:10%;
+}
+.D_S  img{
+    position: absolute;
+	left: 660px;
+    top: 182px;
+	height: 300px;
+	width: 220px;
+	border:6px solid;
+	border-radius:10px;
+    box-shadow: 0 0 10px rgb(255, 254, 254),
+                0 0 20px black,
+                0 0 30px black;
+}
+.D_S p {
+    font-size: 20px;
+    width: 220px;
+    position: absolute;
+    left:670px;
+    font-family: MV Boli;
+    top: 520px;
+    letter-spacing: 2px;
+}
+.D_S button{
+    position: absolute;
+    top:750px;
+    left: 670px;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: rgba(158, 184, 168, 0.884);
+    font-size: 20px;
+    padding-bottom: 30px;
+    border: solid rgb(88, 85, 85);
+    box-shadow: 0 0 10px rgb(0, 0, 0),
+                0 0 20px black,
+                0 0 30px black;
+    font-family: Copperplate Gothic Light;
+    border-radius: 25px / 40px;
+    height:2px;
+    width:10%;
+}
+.A_S  img{
+    position: absolute;
+	left: 1030px;
+    top: 182px;
+	height: 300px;
+	width: 220px;
+	border:6px solid;
+	border-radius:10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255),
+                0 0 20px black,
+                0 0 30px black;
+}
+.A_S p {
+    font-size: 20px;
+    width: 220px;
+    position: absolute;
+    left:1040px;
+    font-family: MV Boli;
+    top: 520px;
+    letter-spacing: 2px;
+}
+.A_S button{
+    position: absolute;
+    top:750px;
+    left: 1040px;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: rgba(158, 184, 168, 0.884);
+    font-size: 20px;
+    padding-bottom: 30px;
+    border: solid rgb(88, 85, 85);
+    box-shadow: 0 0 10px rgb(0, 0, 0),
+                0 0 20px black,
+                0 0 30px black;
+    font-family: Copperplate Gothic Light;
+    border-radius: 25px / 40px;
+    height:2px;
+    width:10%;
+}
+.C_S  img{
+    position: absolute;
+	left: 1420px;
+    top: 182px;
+	height: 300px;
+	width: 220px;
+	border:6px solid;
+	border-radius:10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255),
+                0 0 20px black,
+                0 0 30px black;
+}
+.C_S p {
+    font-size: 20px;
+    width: 220px;
+    position: absolute;
+    left:1430px;
+    font-family: MV Boli;
+    top: 520px;
+    letter-spacing: 2px;
+}
+.C_S button{
+    position: absolute;
+    top:750px;
+    left: 1430px;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: rgba(158, 184, 168, 0.884);
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-family: Copperplate Gothic Light;
+    border-radius: 25px / 40px;
+    height:2px;
+    width:10%;
+    border: solid rgb(88, 85, 85);
+    box-shadow: 0 0 10px rgb(0, 0, 0),
+                0 0 20px black,
+                0 0 30px black;
+    transition: width linear 1s;
+}
+.C_S img:hover{
+    transform: scale(1);
+    transition: 2s;
+    box-shadow: 0 0 10px black,
+                0 0 30px rgb(0, 0, 0),
+                0 0 200px black;
+
+}
+.A_S img:hover{
+    transform: scale(1);
+    transition: 2s;
+    box-shadow: 0 0 10px black,
+                0 0 30px rgb(0, 0, 0),
+                0 0 200px black;
+
+}
+.D_S img:hover{
+    transform: scale(1);
+    transition: 2s;
+    box-shadow: 0 0 10px black,
+                0 0 30px rgb(0, 0, 0),
+                0 0 200px black;
+
+}
+.H_S img:hover{
+    transform: scale(1);
+    transition: 2s;
+    box-shadow: 0 0 10px black,
+                0 0 30px rgb(0, 0, 0),
+                0 0 200px black;
+
+}
